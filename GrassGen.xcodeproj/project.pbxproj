@@ -11,6 +11,8 @@
 		3112763B25B46CB500CED7EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3112763A25B46CB500CED7EF /* ContentView.swift */; };
 		3112763D25B46CB700CED7EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3112763C25B46CB700CED7EF /* Assets.xcassets */; };
 		3112764025B46CB700CED7EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3112763F25B46CB700CED7EF /* Preview Assets.xcassets */; };
+		3112764925B46DEF00CED7EF /* decoder.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3112764825B46DEE00CED7EF /* decoder.mlmodel */; };
+		3112764C25B46E5D00CED7EF /* decoderWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3112764B25B46E5D00CED7EF /* decoderWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		3112763C25B46CB700CED7EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3112763F25B46CB700CED7EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3112764125B46CB700CED7EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3112764825B46DEE00CED7EF /* decoder.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = decoder.mlmodel; sourceTree = "<group>"; };
+		3112764B25B46E5D00CED7EF /* decoderWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = decoderWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +58,9 @@
 			children = (
 				3112763825B46CB500CED7EF /* GrassGenApp.swift */,
 				3112763A25B46CB500CED7EF /* ContentView.swift */,
+				3112764B25B46E5D00CED7EF /* decoderWrapper.swift */,
 				3112763C25B46CB700CED7EF /* Assets.xcassets */,
+				3112764825B46DEE00CED7EF /* decoder.mlmodel */,
 				3112764125B46CB700CED7EF /* Info.plist */,
 				3112763E25B46CB700CED7EF /* Preview Content */,
 			);
@@ -140,6 +146,8 @@
 			files = (
 				3112763B25B46CB500CED7EF /* ContentView.swift in Sources */,
 				3112763925B46CB500CED7EF /* GrassGenApp.swift in Sources */,
+				3112764C25B46E5D00CED7EF /* decoderWrapper.swift in Sources */,
+				3112764925B46DEF00CED7EF /* decoder.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

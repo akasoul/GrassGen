@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct GrassGenApp: App {
+    var model = decoderWrapper()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(self.model)
         }
     }
 }
